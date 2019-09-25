@@ -39,7 +39,7 @@ hr.new1 {
   }
 .image-bg {
     width:100%;
-    height:700px;
+    height:100vh;
     background-image: url("../images/style2-bg.jpg");
     background-size: 100% 700px;
     background-attachment: fixed;
@@ -48,7 +48,7 @@ hr.new1 {
 .heads-bg{
     background-color: #3f2b96;
     opacity: 0.6;
-    height: 700px;
+    height: 100vh;
     color:#fff;
 }
 .heads-bg h1{
@@ -57,13 +57,15 @@ hr.new1 {
 }
 .profile{
     width:100%;
-    height:700px;
+    height:auto;
     background-color:#E9E4F0;
     margin: 0%;
+    padding-bottom: 10vh;
 }
 .about-me{
     width: 250px;
     height: 400px;
+    border : transparent;
 }
 .img-containner{
     width: 250px;
@@ -81,18 +83,19 @@ hr.new1 {
     text-align: center;
     display: block;
 }
-
 .experience{
     width:100%;
-    height:700px;
+    height:auto;
     background-color: #a8c0ff;
     margin: 0%;
+    padding-bottom: 10vh;
 }
 .project{
     width:100%;
-    height:900px;
+    height:auto;
     margin: 0%;
     background: #0082c8;
+    padding-bottom: 10vh;
 }
 .project-card{
     width: 320px; 
