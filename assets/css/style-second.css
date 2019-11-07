@@ -143,12 +143,55 @@ hr.new1 {
 .navbar {
   position: fixed;
   top: 20vh;
-  right: 20vh;
+  right: 2vh;
   width: 20px;
+  background-color: rgb(129, 99, 171, 0.4);
+  width: 100px;
+  height: 300px;
+  border-radius: 10px;
+  color: black;
 }
 
-.nav-e .nav-p .nav-p {
+.nav-e .nav-prof .nav-proj {
   padding: 10px;
   border: 1px solid black;
   width: 100%;
+}
+.nav-e a:visited {
+  color: black;
+}
+.nav-e:hover {
+  animation: bounce 1s;
+}
+.nav-prof a:visited {
+  color: black;
+}
+.nav-prof:hover {
+  animation: bounce 1s;
+}
+.nav-proj a:visited {
+  color: black;
+}
+.nav-proj:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
