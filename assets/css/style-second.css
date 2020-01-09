@@ -84,7 +84,7 @@ hr.new1 {
 }
 .experience {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: #a8c0ff;
   margin: 0%;
   padding-bottom: 10vh;
@@ -145,11 +145,11 @@ hr.new1 {
   top: 20vh;
   right: 2vh;
   width: 20px;
-  background-color: rgb(129, 99, 171, 0.4);
+  background-color: rgb(129, 99, 171, 0.5);
   width: 100px;
   height: 300px;
   border-radius: 10px;
-  color: black;
+  color: blanchedalmond;
 }
 
 .nav-e .nav-prof .nav-proj {
@@ -158,19 +158,19 @@ hr.new1 {
   width: 100%;
 }
 .nav-e a:visited {
-  color: black;
+  color: blanchedalmond;
 }
 .nav-e:hover {
   animation: bounce 1s;
 }
 .nav-prof a:visited {
-  color: black;
+  color: blanchedalmond;
 }
 .nav-prof:hover {
   animation: bounce 1s;
 }
 .nav-proj a:visited {
-  color: black;
+  color: blanchedalmond;
 }
 .nav-proj:hover {
   animation: bounce 1s;
