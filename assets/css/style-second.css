@@ -119,14 +119,7 @@ hr.new1 {
 .card-info {
   display: none;
 }
-.card-body:hover {
-  background: rgba(65, 63, 63, 0.9);
-}
-.card-body:hover .card-info {
-  display: block;
-  transition-timing-function: ease-out;
-  color: #fff;
-}
+
 .subtitle {
   width: 100%;
   color: #fff;
