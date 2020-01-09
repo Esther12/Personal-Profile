@@ -140,7 +140,7 @@ hr.new1 {
   color: black;
 }
 
-.navbar {
+.navbar1 {
   position: fixed;
   top: 20vh;
   right: 2vh;
@@ -193,5 +193,17 @@ hr.new1 {
   80% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
+  }
+}
+
+.navbar2 {
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  #side-navbar {
+    display: none;
+  }
+  .navbar2 {
+    display: block;
   }
 }
